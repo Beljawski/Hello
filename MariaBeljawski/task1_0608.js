@@ -2,5 +2,5 @@
 
 db.users.countDocuments({
   country: { $ne: "China" },
-  is_blocked: { $eq: true },
+  is_blocked: true,
 });
